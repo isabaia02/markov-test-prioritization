@@ -4,8 +4,8 @@ O dataset completo **não está versionado neste repositório** (cerca de 640 MB
 
 ## Como obter
 
-- **Origem / download:** `[PREENCHER: link do Zenodo, Drive ou servidor do grupo, com versão/DOI]`
-- **Autoria / como citar:** `[PREENCHER]`
+- **Origem / download:** FSMs geradas pelo Prof. Dr. André Takeshi Endo
+- **Autoria / como citar:** 
 
 Depois de baixar e extrair, a estrutura deve ficar assim:
 

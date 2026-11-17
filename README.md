@@ -8,7 +8,6 @@ Este projeto processa modelos de Máquinas de Estados Finitos (MEFs, em inglês 
 O programa lê as suítes de teste do benchmark (métodos H, HSI, P, W e PY), reconstrói o caminho de cada caso na MEF, calcula as pontuações e posições segundo H1 e H2 e grava os resultados em arquivos CSV, junto com os tempos de execução de cada heurística.
 
 > **Status:** protótipo de pesquisa. **Licença:** a definir (até lá, todos os direitos reservados aos autores).
-> **Como citar:** `[PREENCHER]`
 
 ## Sumário
 
@@ -270,7 +269,7 @@ Os casos são classificados em ordem decrescente de pontuação, separadamente p
 ## 9. Reprodutibilidade
 
 - **Determinístico:** `score_*`, `rank_*`, `transition_sequence` e `state_sequence` são idênticos entre execuções e máquinas.
-- **Dependente da máquina:** os campos `*_time_s` variam com hardware, carga e versões de Python/NumPy. Ao divulgar tempos, informe o ambiente. Ambiente de referência: `[PREENCHER: modelo da máquina, CPU, RAM, SO, versão do Python e do NumPy]`.
+- **Dependente da máquina:** os campos `*_time_s` variam com hardware, carga e versões de Python/NumPy.
 - O tempo de H2 inclui o cálculo de π; o de H1 não depende dele. O tempo de leitura dos arquivos só entra em `processing_time_s`.
 
 ## 10. Testes
