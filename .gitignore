@@ -1,0 +1,17 @@
+# Ambiente virtual e caches
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Sistema operacional / editor
+.DS_Store
+
+# Dataset completo (não versionado; ver data/README.md)
+data/mefs-markov/
+
+# Resultados gerados (não versionados; ver README.md)
+results/
+
+# Logs e temporários
+*.log
+*.tmp
